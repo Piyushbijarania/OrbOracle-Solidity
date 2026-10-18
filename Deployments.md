@@ -7,7 +7,7 @@ as well as the constructor parameters that have been used.
 
 | Network | Network ID | Version | Contract `OracleFactory.sol` Address | Contract `OracleFactory.sol` Parameters | Contract `ComposedOracleFactory.sol` Address | Contract `ComposedOracleFactory.sol` Parameters | Comments |
 |---|---|---|---|---|---|---|---|
-| Sepolia (Testnet) | 11155111 | [v0.0.1](https://github.com/StabilityNexus/OrbOracle-Solidity/tree/main) | `0xB3134111A1C33E5d879AE18cC2d386B2386BBE73` | `initialOwner = 0x365f66748c2F318b0593397f1a446e01Ec006B22` | `0xB790B846221e82373d7d5121F1901DD31B0f6496` | `initialOwner = 0x365f66748c2F318b0593397f1a446e01Ec006B22` | Deployed and verified on Sepolia testnet |
+| Sepolia (Testnet) | 11155111 | [v0.0.1](https://github.com/StabilityNexus/OrbOracle-Solidity/tree/main) | `0xB3134111A1C33E5d879AE18cC2d386B2386BBE73` | `initialOwner = 0x365f66748c2F318b0593397f1a446e01Ec006B22` | `0x388288658D73202aF9c65a0f89eE3104705dEdE0` | `initialOwner = 0x365f66748c2F318b0593397f1a446e01Ec006B22` | Deployed and verified on Sepolia testnet |
 
 
 ---
