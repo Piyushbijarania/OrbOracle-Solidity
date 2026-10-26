@@ -126,7 +126,7 @@ contract Oracle is Ownable, ReentrancyGuard {
         uint256 newP = numerator / newQ; 
         
         uint256 rewardPool = (address(this).balance * REWARD_BPS) / DENOMINATOR;                     // Portion of balance reserved for rewards
-        uint256 rewardToSubmitter = calculateReward(rewardPool, w, timeSinceUser, decayedQ);
+        uint256 rewardToSubmitter = calculateReward(rewardPool, w, timeSinceUser, newQ);
         if (rewardToSubmitter > 0) {
             (bool ok, ) = msg.sender.call{value: rewardToSubmitter}("");
             if (!ok) revert RewardTransferFailed();
