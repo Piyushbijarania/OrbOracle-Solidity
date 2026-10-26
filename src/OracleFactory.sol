@@ -1,4 +1,5 @@
-// SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: UNLICENSED
+// Licensing information: https://github.com/StabilityNexus/OrbOracle-Solidity
 pragma solidity ^0.8.20;
 
 import {Ownable} from "lib/openzeppelin-contracts/contracts/access/Ownable.sol";
